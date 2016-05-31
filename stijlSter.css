@@ -1,0 +1,22 @@
+
+body{
+	font-family: sans-serif;
+    background-color: aqua;
+}
+
+.sterren{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url("img/ster1.png");
+}
+.sterren:hover{
+	background-image: url("img/ster3.png");
+	cursor: pointer;
+}
+.sterren span{
+	display: inline-block;
+	width: 0;
+	height: 32px;
+	background-image: url("img/ster.png");
+}
